@@ -37,5 +37,11 @@
                 <span class="side-menu__label">Appointments</span>
             </a>
         </li>
+        <li class="slide">
+            <a class="side-menu__item" href="{{ route('consultations.index') }}">
+                <i class="icon icon-calendar side-menu__icon"></i>
+                <span class="side-menu__label">Consultations</span>
+            </a>
+        </li>
     </ul>
 </aside>
