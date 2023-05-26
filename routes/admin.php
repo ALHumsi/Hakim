@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\PatientController;
 use App\Http\Controllers\Admin\AppointmentController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\ConsultationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,5 +32,10 @@ Route::resource('patients', PatientController::class);
 
 #### Appointment ####
 Route::resource('appointments', AppointmentController::class);
+
+#### Consultations ####
+
+Route::resource('consultations', ConsultationController::class);
+
 
 
